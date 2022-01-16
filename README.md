@@ -1,4 +1,4 @@
-# school_districts-analysis
+# school_districts_analysis
 ## Overview 
 This analysis aggregated the standerdized reading and math test scores for various schools in a school district using Pandas in Jupyter Notebook (version 3.7.11). Multiple calculations were performed on the test scores to evalute school preformance and whether different conditions affected school performance such as grade level, school spending, school size, and school type. These calculations were used to determine budget allotments for the district. 
 
@@ -16,13 +16,13 @@ A separate analysis was also preformed, exactly like the one above except this o
 
 - How does replacing the ninth-grade scores affect the following? 
     - math and reading scores by grade 
-        No data was affected in this dataframe except the 9th grade scores for Thomas High School were replaced with NaN.
+        - No data was affected in this dataframe except the 9th grade scores for Thomas High School were replaced with NaN.
     - scores by school spending  
-        No data was affected.
+        - No data was affected.
     - scores by school size 
-        No data was affected.
+        - No data was affected.
     - scores by school type
-        No data was affected.
+        - No data was affected.
 
 ## Summary
 There weren't many significant changes to the school district analysis after replacing the reading and math scores. The district summary was negatively impacted with the percentage passing math, the percentage passing reading, and the percentage passing overall seeing a decrease in value. Thomas High School's analysis also saw a slight change in the school summary. The percentage passing math, the percentage passing reading, and the percentage passing overall all decreased as a result of replacing the 9th graders' test scores. There were no other significant changes to the analysis. 
